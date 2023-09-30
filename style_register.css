@@ -1,0 +1,84 @@
+body{
+    background-color:gray;
+}
+
+h1{
+    color:darkslateblue;
+    text-align: center;
+}
+
+p{
+    font-size: large;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display: block;
+    border: 5px double darkslateblue;
+    height: 20vw;
+    width: 25vw;
+    margin: auto;
+    background-color:cornflowerblue;
+}
+
+label[for="register-username"]{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+input[type=text]{
+    position: relative;
+    top: 35px;
+}
+
+label[for="register-email"]{
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+input[type=email]{
+    position: relative;
+    top: 75px
+}
+
+label[for="register-password"]{
+    position: absolute;
+    top: 135px;
+    left: 10px;
+}
+
+input[type=password]{
+    position: relative;
+    top: 115px;
+}
+
+label[for="confirm-password"]{
+    position: absolute;
+    top: 195px;
+    left: 10px;
+}
+
+#password-confirm{
+    position: relative;
+    top: 155px;
+}
+
+button{
+    position: relative;
+    top: 200px;
+    color: black;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover{
+    opacity: 0.8;
+}
